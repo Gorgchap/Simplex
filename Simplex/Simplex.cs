@@ -2,7 +2,6 @@
 {
     public class Simplex
     {
-        
         double[,] table; // симплекс-таблица
         readonly int m, n;
         readonly System.Collections.ArrayList basis; // список базисных переменных
